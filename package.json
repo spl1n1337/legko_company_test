@@ -1,0 +1,15 @@
+{
+  "name": "download-speed",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Measure download speed with 10 sequential HTTP requests",
+  "bin": {
+    "download-speed": "./measure.js"
+  },
+  "scripts": {
+    "start": "node measure.js"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
